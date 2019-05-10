@@ -1,0 +1,7 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <preference for="Magento\Catalog\Block\Product\ProductList\Toolbar"
+                type="Thienminh\Trainning\Block\Catalog\ProductList\Toolbar"/>
+    <type name="Thienminh\Trainning\Block\Catalog\ProductList\Toolbar">
+        <plugin name="Thienminh_Trainning_Plugin" type="Thienminh\Trainning\Plugin\Example" sortOrder="10" disabled="false"  />
+    </type>
+</config>
